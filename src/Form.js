@@ -16,7 +16,7 @@ function Form() {
     setShowButton(true);
     // Send a request to your server with the resource details
     console.log(resourceDetails);
-    const responce = await fetch("https://akjlpback.azurewebsites.net:4000/submit",{
+    const responce = await fetch("https://webapplpralback.azurewebsites.net:4000/submit",{
      method:'POST',
      headers:{
      'Content-Type':'application/json'
